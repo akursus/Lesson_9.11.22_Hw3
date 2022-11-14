@@ -50,5 +50,14 @@ public class Main {
         short totalStudent = (short) (teacherLyudmilaPavlovna + teacherAnnaSergeyevna + teacherEkaterinaAndreevna);
         System.out.println("На каждого ученика рассчитано " +480/totalStudent +" листов бумаги");
 
+        //task4
+        System.out.println("Задание 4");
+        int bottlesPerMinute = 16/2;
+        int minutesToDays = 60 * 24;
+        System.out.println("За 20 минут машина произвела бутылок " +bottlesPerMinute*20 +" штук");
+        System.out.println("За сутки машина произвела бутылок " +bottlesPerMinute*minutesToDays +" штук");
+        System.out.println("За 3 дня машина произвела бутылок " +bottlesPerMinute*minutesToDays*3 +" штук");
+        System.out.println("За 1 месяц, если 30 дней в месяце, машина произвела бутылок " +bottlesPerMinute*minutesToDays*30 +" штук");
+        System.out.println("За 1 месяц, если 31 день в месяце, машина произвела бутылок " +bottlesPerMinute*minutesToDays*31 +" штук");
     }
 }
