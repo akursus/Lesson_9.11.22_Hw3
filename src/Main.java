@@ -42,6 +42,13 @@ public class Main {
         System.out.println(meaning11);
         System.out.println(meaning12);
 
+        //task3
+        System.out.println("Задание 3");
+        short teacherLyudmilaPavlovna = 23;
+        short teacherAnnaSergeyevna = 27;
+        short teacherEkaterinaAndreevna = 30;
+        short totalStudent = (short) (teacherLyudmilaPavlovna + teacherAnnaSergeyevna + teacherEkaterinaAndreevna);
+        System.out.println("На каждого ученика рассчитано " +480/totalStudent +" листов бумаги");
 
     }
 }
