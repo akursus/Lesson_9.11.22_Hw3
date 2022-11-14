@@ -11,8 +11,8 @@ public class Main {
         long christmasTree = 357;
         System.out.println("Значение переменной christmasTree с типом long равно " +christmasTree);
         float coordinateX = 45.12345f;
-        System.out.println("Значение переменной coordinateX с типом short равно " +coordinateX);
+        System.out.println("Значение переменной coordinateX с типом float равно " +coordinateX);
         double coordinateY = 12.123456789;
-        System.out.println("Значение переменной coordinateY с типом short равно " +coordinateY);
+        System.out.println("Значение переменной coordinateY с типом double равно " +coordinateY);
     }
 }
