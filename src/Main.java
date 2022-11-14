@@ -59,5 +59,13 @@ public class Main {
         System.out.println("За 3 дня машина произвела бутылок " +bottlesPerMinute*minutesToDays*3 +" штук");
         System.out.println("За 1 месяц, если 30 дней в месяце, машина произвела бутылок " +bottlesPerMinute*minutesToDays*30 +" штук");
         System.out.println("За 1 месяц, если 31 день в месяце, машина произвела бутылок " +bottlesPerMinute*minutesToDays*31 +" штук");
+
+        //task5
+        System.out.println("Задание 5");
+        int totalPaint = 120;
+        int whitePaintClass = 2;
+        int brownPaintClass = 4;
+        int totalClass = totalPaint/(whitePaintClass+brownPaintClass);
+        System.out.println("В школе, где " +totalClass +" классов, нужно " +whitePaintClass*totalClass +" банок белой краски и " +brownPaintClass*totalClass +" банок коричневой краски");
     }
 }
