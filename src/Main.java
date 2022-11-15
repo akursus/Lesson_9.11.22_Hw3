@@ -87,5 +87,19 @@ public class Main {
         System.out.println("Если спортсмен будет терять каждый день по 500 грамм, то сбросит 7 кг за " +mustBeReset/diet2 +" дней");
         System.out.println("В среднем данный результат можно достичь за " +(mustBeReset/diet2 + ((mustBeReset/diet2)%(mustBeReset/diet1)/2)) +" дней");
 
+        //task8
+        System.out.println("Задание 8");
+        int realSalaryMasha = 67760;
+        int realSalaryDenis = 83690;
+        int realSalaryCristina = 76230;
+        double realSalaryFromPercent = 0.1;
+        double futureSalaryMasha = realSalaryMasha + realSalaryMasha * realSalaryFromPercent;
+        double futureSalaryDenis = realSalaryDenis + realSalaryDenis * realSalaryFromPercent;
+        double futureSalaryCristina = realSalaryCristina + realSalaryCristina * realSalaryFromPercent;;
+        System.out.println("Маша теперь получает " + futureSalaryMasha * 12 +" рублей. Годовой доход вырос на " +realSalaryMasha * realSalaryFromPercent * 12 +" рублей");
+        System.out.println("Денис теперь получает " + futureSalaryDenis * 12 +" рублей. Годовой доход вырос на " +realSalaryDenis * realSalaryFromPercent * 12 +" рублей");
+        System.out.println("Кристина теперь получает " + futureSalaryCristina * 12 +" рублей. Годовой доход вырос на " +realSalaryCristina * realSalaryFromPercent * 12 +" рублей");
+
+
     }
 }
