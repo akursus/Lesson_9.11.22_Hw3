@@ -78,6 +78,14 @@ public class Main {
         float totalWeight = totalWeightG/1000f;
         System.out.println("Вес спорт-завтрака " + totalWeightG +" грамм или " +totalWeight +" килограмм");
 
+        //task7
+        System.out.println("Задание 7");
+        int diet1 = 250;
+        int diet2 = 500;
+        int mustBeReset = 7*1000;
+        System.out.println("Если спортсмен будет терять каждый день по 250 грамм, то сбросит 7 кг за " +mustBeReset/diet1 +" дней");
+        System.out.println("Если спортсмен будет терять каждый день по 500 грамм, то сбросит 7 кг за " +mustBeReset/diet2 +" дней");
+        System.out.println("В среднем данный результат можно достичь за " +(mustBeReset/diet2 + ((mustBeReset/diet2)%(mustBeReset/diet1)/2)) +" дней");
 
     }
 }
